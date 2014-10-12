@@ -1,6 +1,7 @@
 {
   // Saved in Ascii compatible definitions, to preserve my sanity
   // When adding characters, please make sure to add a comment with the current name of the stated emoji
+  "version": "0.1.1",
 
   // EmoJS specific escape characters, to allow literal emojis to be expressed in code
   "escapeCharacters" : {
@@ -12,11 +13,6 @@
     "World"   : "Hello", // Testing pair
     "0x1F300" : "A", // Cyclone
     "0x1F415" : "if", // Dog
-    "0x1F408" : "else" // Dog
+    "0x1F408" : "else" // Cat
   }
-
-  // ,
-  // "multipleCharecters": {
-  //   "World": "Hello"
-  // }
 }
