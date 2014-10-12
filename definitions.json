@@ -1,7 +1,7 @@
 {
   // Saved in Ascii compatible definitions, to preserve my sanity
   // When adding characters, please make sure to add a comment with the current name of the stated emoji
-  "version": "0.1.1",
+  "version": "0.1.2",
 
   // EmoJS specific escape characters, to allow literal emojis to be expressed in code
   "escapeCharacters" : {
@@ -10,7 +10,7 @@
     "closeEscape"  : "0x1F448" // White Left Pointing Backhand Index
   },
   "singleCharacters": {
-    "World"   : "Hello", // Testing pair
+    // "World"   : "Hello", // Testing pair (Removed until multi-character definitons supported)
     "0x1F4BB" : "console", // Personal Computer
     "0x1F333" : "log", // Deciduous Tree
     "0x1F313" : "(", // First Quarter Moon Symbol
