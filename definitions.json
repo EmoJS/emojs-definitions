@@ -1,7 +1,7 @@
 {
   // Saved in Ascii compatible definitions, to preserve my sanity
   // When adding characters, please make sure to add a comment with the current name of the stated emoji
-  "version": "0.1.3",
+  "version": "0.1.4",
 
   // EmoJS specific escape characters, to allow literal emojis to be expressed in code
   "escapeCharacters" : {
@@ -19,7 +19,7 @@
     "0x1F317" : ")", // Last Quarter Moon Symbol
     "0x26AB"  : ".", // Medium Black Circle
     "0x1F607" : ";", // Smiling Face With Halo
-    "0x1F446" : "'", // white up pointing backhand index
+    "0x261D" : "'", // white up pointing backhand index
     "0x270C" : "\"", // victory hand
     "0x1F300" : "A" // Cyclone
   }
