@@ -18,8 +18,7 @@ To assist you in dealing with it, here are some JSON comment stripping projects!
 
 ## Release History
 
-0.2.0
------
+### 0.2.0
 
 Add literals, keywords, and braces
 
@@ -30,8 +29,7 @@ multiCharacters list reintroduced, in anticipation for multicharacter
 emoji support
 
 
-0.1.0
------
+### 0.1.0
 
 Initial Release
 
