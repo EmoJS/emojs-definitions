@@ -11,14 +11,16 @@
   },
   "singleCharacters": {
     // "World"   : "Hello", // Testing pair (Removed until multi-character definitons supported)
+    "0x1F415" : "if", // Dog
+    "0x1F408" : "else", // Cat
     "0x1F4BB" : "console", // Personal Computer
     "0x1F333" : "log", // Deciduous Tree
     "0x1F313" : "(", // First Quarter Moon Symbol
     "0x1F317" : ")", // Last Quarter Moon Symbol
     "0x26AB"  : ".", // Medium Black Circle
     "0x1F607" : ";", // Smiling Face With Halo
-    "0x1F415" : "if", // Dog
-    "0x1F408" : "else", // Cat
+    "0x1F446" : "'", // white up pointing backhand index
+    "0x270C" : "\"", // victory hand
     "0x1F300" : "A" // Cyclone
   }
 }
