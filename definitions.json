@@ -1,26 +1,44 @@
 {
   // Saved in Ascii compatible definitions, to preserve my sanity
   // When adding characters, please make sure to add a comment with the current name of the stated emoji
-  "version": "0.1.4",
+  "version": "0.2.0",
 
-  // EmoJS specific escape characters, to allow literal emojis to be expressed in code
+  // EmoJS specific escape characters, to allow literal emoji to be expressed in code
   "escapeCharacters" : {
     "singleEscape" : "0x1F42C", // Dolphin
     "openEscape"   : "0x1F449", // White Right Pointing Backhand Index
     "closeEscape"  : "0x1F448" // White Left Pointing Backhand Index
   },
   "singleCharacters": {
-    // "World"   : "Hello", // Testing pair (Removed until multi-character definitons supported)
+    "0x1F311" : "true", // new moon symbol
+    "0x1F315" : "false", // full moon symbol
+    "0x1F31D" : "NaN", // full moon with face
+    "0x1F31A" : "undefined", // new moon with face
+    "0x1F319" : "null", // crescent moon
+    "0x26A0"  : "alert", // warning sign
+    "0x2615"  : "break", // hot beverage
+    "0x1F501" : "Infinity", // clockwise rightwards and leftwards open circle arr
+    "0x1F389" : "function", // party popper
     "0x1F415" : "if", // Dog
     "0x1F408" : "else", // Cat
     "0x1F4BB" : "console", // Personal Computer
     "0x1F333" : "log", // Deciduous Tree
-    "0x1F313" : "(", // First Quarter Moon Symbol
-    "0x1F317" : ")", // Last Quarter Moon Symbol
+    "0x1F313" : "[", // First Quarter Moon Symbol
+    "0x1F317" : "]", // Last Quarter Moon Symbol
+    "0x1F314" : "(", // waxing gibbous moon symbol
+    "0x1F316" : ")", // waning gibbous moon symbol
+    "0x1F31C" : "{", // last quarter moon with face
+    "0x1F31B" : "}", // first quarter moon with face
     "0x26AB"  : ".", // Medium Black Circle
     "0x1F607" : ";", // Smiling Face With Halo
-    "0x261D" : "'", // white up pointing backhand index
-    "0x270C" : "\"", // victory hand
-    "0x1F300" : "A" // Cyclone
+    "0x261D"  : "'", // white up pointing backhand index
+    "0x270C"  : "\"", // victory hand
+    "0x1F300" : "A", // Cyclone
+  },
+
+  // TODO: add official support for Multicharacter emoji
+  "multiCharacters": {
+    "World"          : "Hello", // Testing pair 
+    "0x0031, 0x20E3" : "1", // Keycap 1
   }
 }
