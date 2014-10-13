@@ -11,7 +11,7 @@ Yes, yes it does.
 
 In short, deal with it.
 
-To assist you in dealing with it, here are some JSON comment striping projects!
+To assist you in dealing with it, here are some JSON comment stripping projects!
 
 * [strip-json-comments](https://github.com/sindresorhus/strip-json-comments)
 * [JSON.minify](https://github.com/getify/JSON.minify)
