@@ -1,0 +1,12 @@
+{
+  "name": "emojs-definitons",
+  "version": "0.2.5",
+  "homepage": "https://emojs.github.io/",
+  "repository": "https://github.com/EmoJS/emojs-definitons",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "node-json-minify": "^0.1.3-a",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jsonlint": "^1.0.4"
+  }
+}

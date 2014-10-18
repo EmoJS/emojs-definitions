@@ -1,7 +1,7 @@
 {
   // Saved in Ascii compatible hex definitions, to preserve my sanity
   // When adding characters, please make sure to add a comment with the current name of the stated emoji
-  "version": "0.2.2",
+  "version": "0.2.5",
 
   // EmoJS specific escape characters
   "escapeCharacters" : {
@@ -47,7 +47,7 @@
     "0x2797"  : "/", // heavy division sign
     "0x1F4AF" : "%", // hundred points symbol
     "0x1F300" : "A" // Cyclone
-  },
+  }
 
   // TODO: add support for multi-character definitions
   // "multiCharacters": {
