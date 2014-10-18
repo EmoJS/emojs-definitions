@@ -7,7 +7,8 @@
   "escapeCharacters" : {
     "singleEscape" : "0x1F42C", // Dolphin
     "openEscape"   : "0x1F449", // White Right Pointing Backhand Index
-    "closeEscape"  : "0x1F448" // White Left Pointing Backhand Index
+    "closeEscape"  : "0x1F448", // White Left Pointing Backhand Index
+    "keycap"       : "0x20E3" // Combining Enclosing Keycap
   },
   "singleCharacters": {
     "0x1F311" : "true", // new moon symbol
@@ -36,9 +37,9 @@
     "0x1F300" : "A" // Cyclone
   },
 
-  // TODO: add official support for Multicharacter emoji
+  // TODO: add support for Multicharacter emoji
   "multiCharacters": {
     "World"          : "Hello", // Testing pair 
-    "0x0031, 0x20E3" : "1" // Keycap 1
+    // "0x0031, 0x20E3" : "1" // Keycap 1
   }
 }
