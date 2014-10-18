@@ -1,13 +1,18 @@
 {
-  // Saved in Ascii compatible definitions, to preserve my sanity
+  // Saved in Ascii compatible hex definitions, to preserve my sanity
   // When adding characters, please make sure to add a comment with the current name of the stated emoji
-  "version": "0.2.1",
+  "version": "0.2.2",
 
-  // EmoJS specific escape characters, to allow literal emoji to be expressed in code
+  // EmoJS specific escape characters
   "escapeCharacters" : {
+    // Character for escaping single characters
     "singleEscape" : "0x1F42C", // Dolphin
-    "openEscape"   : "0x1F449", // White Right Pointing Backhand Index
-    "closeEscape"  : "0x1F448", // White Left Pointing Backhand Index
+
+    // Character for escaping multiple characters TODO: setup implementation structure
+    // "openEscape"   : "0x1F449", // White Right Pointing Backhand Index
+    // "closeEscape"  : "0x1F448", // White Left Pointing Backhand Index
+
+    // Keycap character used in number key emoji
     "keycap"       : "0x20E3" // Combining Enclosing Keycap
   },
   "singleCharacters": {
@@ -34,12 +39,19 @@
     "0x1F607" : ";", // Smiling Face With Halo
     "0x261D"  : "'", // white up pointing backhand index
     "0x270C"  : "\"", // victory hand
+    "0x274C"  : "!=", // cross mark
+    "0x2757"  : "!", // heavy exclamation mark symbol
+    "0x2716"  : "*", // heavy multiplication x
+    "0x2795"  : "+", // heavy plus sign
+    "0x2796"  : "-", // heavy minus sign
+    "0x2797"  : "/", // heavy division sign
+    "0x1F4AF" : "%", // hundred points symbol
     "0x1F300" : "A" // Cyclone
   },
 
-  // TODO: add support for Multicharacter emoji
-  "multiCharacters": {
-    "World"          : "Hello", // Testing pair 
-    // "0x0031, 0x20E3" : "1" // Keycap 1
-  }
+  // TODO: add support for multi-character definitions
+  // "multiCharacters": {
+  //   "World"          : "Hello" // Testing pair
+  //   "0x0031, 0x20E3" : "1" // Keycap 1 
+  // }
 }
