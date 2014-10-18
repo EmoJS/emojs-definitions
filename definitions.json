@@ -46,6 +46,7 @@
     "0x2796"  : "-", // heavy minus sign
     "0x2797"  : "/", // heavy division sign
     "0x1F4AF" : "%", // hundred points symbol
+    "0x1F51F" : "10", // Keycap 10
     "0x1F300" : "A" // Cyclone
   }
 
