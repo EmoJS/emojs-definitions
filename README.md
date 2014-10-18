@@ -11,12 +11,18 @@ Yes, yes it does.
 
 In short, deal with it.
 
-To assist you in dealing with it, here are some JSON comment stripping projects!
+To assist you in dealing with it, we have some helpful grunt tasks included with this project!
 
-* [strip-json-comments](https://github.com/sindresorhus/strip-json-comments)
-* [JSON.minify](https://github.com/getify/JSON.minify)
+Once dev dependinces have been installed (use `npm install`), just run `grunt` to both strip comments and check that the resulting JSON is valid.
+
+You can even run `grunt watch` to do this automagically as you edit `definitions.json`!
 
 ## Release History
+
+### 0.2.5
+
+Add number keycaps, operators, and grunt automation in build process
+
 
 ### 0.2.0
 
